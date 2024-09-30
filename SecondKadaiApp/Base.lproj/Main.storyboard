@@ -51,7 +51,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="textField1" destination="xBL-xs-y9s" id="1Pw-rR-crL"/>
+                        <outlet property="textField1" destination="xBL-xs-y9s" id="OD3-kw-QBP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -93,7 +93,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="yTD-SY-rig"/>
                     <connections>
-                        <outlet property="label1" destination="MIZ-hl-ZHc" id="cxd-S3-EfX"/>
+                        <outlet property="label1" destination="MIZ-hl-ZHc" id="M6W-KB-zWO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mji-e4-SEj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

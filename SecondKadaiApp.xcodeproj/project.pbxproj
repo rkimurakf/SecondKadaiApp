@@ -12,8 +12,8 @@
 		EA7D665D2CAA9CF70063248E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EA7D665C2CAA9CF70063248E /* Base */; };
 		EA7D665F2CAA9CF70063248E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7D665E2CAA9CF70063248E /* Assets.xcassets */; };
 		EA7D66622CAA9CF70063248E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EA7D66612CAA9CF70063248E /* Base */; };
-		EA7D666A2CAA9D2E0063248E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7D66692CAA9D2E0063248E /* ResultViewController.swift */; };
-		EA7D666C2CAA9D4D0063248E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7D666B2CAA9D4D0063248E /* ViewController.swift */; };
+		EAA65EB82CAAA30A00E0B363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA65EB72CAAA30A00E0B363 /* ViewController.swift */; };
+		EAA65EBA2CAAA33A00E0B363 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA65EB92CAAA33A00E0B363 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		EA7D665E2CAA9CF70063248E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA7D66612CAA9CF70063248E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA7D66632CAA9CF70063248E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA7D66692CAA9D2E0063248E /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = "../../名称未設定フォルダ/SecondKadaiApp/SecondKadaiApp/ResultViewController.swift"; sourceTree = "<group>"; };
-		EA7D666B2CAA9D4D0063248E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../名称未設定フォルダ/SecondKadaiApp/SecondKadaiApp/ViewController.swift"; sourceTree = "<group>"; };
+		EAA65EB72CAAA30A00E0B363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAA65EB92CAAA33A00E0B363 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				EA7D66552CAA9CF70063248E /* AppDelegate.swift */,
 				EA7D66572CAA9CF70063248E /* SceneDelegate.swift */,
-				EA7D66692CAA9D2E0063248E /* ResultViewController.swift */,
-				EA7D666B2CAA9D4D0063248E /* ViewController.swift */,
 				EA7D665B2CAA9CF70063248E /* Main.storyboard */,
 				EA7D665E2CAA9CF70063248E /* Assets.xcassets */,
 				EA7D66602CAA9CF70063248E /* LaunchScreen.storyboard */,
 				EA7D66632CAA9CF70063248E /* Info.plist */,
+				EAA65EB72CAAA30A00E0B363 /* ViewController.swift */,
+				EAA65EB92CAAA33A00E0B363 /* ResultViewController.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -141,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA7D666C2CAA9D4D0063248E /* ViewController.swift in Sources */,
+				EAA65EB82CAAA30A00E0B363 /* ViewController.swift in Sources */,
 				EA7D66562CAA9CF70063248E /* AppDelegate.swift in Sources */,
 				EA7D66582CAA9CF70063248E /* SceneDelegate.swift in Sources */,
-				EA7D666A2CAA9D2E0063248E /* ResultViewController.swift in Sources */,
+				EAA65EBA2CAAA33A00E0B363 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
